@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Notepad')
+Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Untitled - Notepad')
 
-Windows.setText(findWindowsObject('Object Repository/Notepad/Edit'), 'Hello World')
+Windows.click(findWindowsObject('Object Repository/Notepad/Button-Maximize-Minimize'))
 
-Windows.doubleClick(findWindowsObject('Object Repository/Notepad/Edit'))
-
-Windows.clearText(findWindowsObject('Object Repository/Notepad/Edit'))
+Windows.click(findWindowsObject('Object Repository/Notepad/Button-Maximize-Minimize'))
 
 Windows.closeApplication()
 

@@ -17,21 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Untitled - Notepad')
+Windows.startApplicationWithTitle('C:\\Users\\Abhi\\Downloads\\Calc 64-bit\\calc1.exe', 'Calculator')
 
-Windows.setText(findWindowsObject('Notepad/Edit-TextEditor'), 'Hello World')
-
-Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
-
-Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem(1)-Open'))
-
-Windows.setText(findWindowsObject('Object Repository/Notepad/Edit-FileName'), 'Hello World.txt')
-
-Windows.click(findWindowsObject('Object Repository/Notepad/TreeItem-Desktop (1)'))
-
-Windows.click(findWindowsObject('Object Repository/Notepad/Button-SaveFile'))
-
-Windows.click(findWindowsObject('Object Repository/Notepad/Button(1)-ReplaceExistingFile'))
+Windows.click(findWindowsObject('Object Repository/Calculator/MenuBar'))
 
 Windows.closeApplication()
 

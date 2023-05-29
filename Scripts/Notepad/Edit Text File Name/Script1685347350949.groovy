@@ -19,19 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Untitled - Notepad')
 
-Windows.setText(findWindowsObject('Notepad/Edit-TextEditor'), 'Hello World')
-
 Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
 
 Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem(1)-Open'))
 
-Windows.setText(findWindowsObject('Object Repository/Notepad/Edit-FileName'), 'Hello World.txt')
+Windows.click(findWindowsObject('Object Repository/Notepad/TreeItem-Desktop'))
 
-Windows.click(findWindowsObject('Object Repository/Notepad/TreeItem-Desktop (1)'))
+Windows.click(findWindowsObject('Object Repository/Notepad/Edit-Select File'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/Button-OpenFile'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem(2)'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
+
+Windows.setText(findWindowsObject('Object Repository/Notepad/MenuItem-Save As'), 'OneDrive')
 
 Windows.click(findWindowsObject('Object Repository/Notepad/Button-SaveFile'))
-
-Windows.click(findWindowsObject('Object Repository/Notepad/Button(1)-ReplaceExistingFile'))
 
 Windows.closeApplication()
 
