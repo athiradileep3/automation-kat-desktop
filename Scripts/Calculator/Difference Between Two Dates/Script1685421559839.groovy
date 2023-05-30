@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\Abhi\\Downloads\\Calc 64-bit\\calc1.exe', 'Calculator')
-
-Windows.click(findWindowsObject('Calculator/1'))
-
-Windows.click(findWindowsObject('Calculator/0'))
-
-Windows.click(findWindowsObject('Calculator/Divide'))
-
-Windows.click(findWindowsObject('Calculator/2'))
-
-Windows.click(findWindowsObject('Calculator/Equals'))
-
-txt = Windows.getText(findWindowsObject('Calculator/ResultArea'))
-
-Windows.verifyMatch(txt.trim(), "5", true)
-
-Windows.closeApplication()
-
