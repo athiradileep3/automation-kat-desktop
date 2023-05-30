@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Untitled - Notepad')
+
+Windows.setText(findWindowsObject('Object Repository/Notepad/Text Editor'), 'Abc')
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-Format'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/Font'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/RegularFont'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/SaveFont'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/Button-Exit'))
+
+Windows.click(findWindowsObject('Object Repository/Notepad/DoNotSave'))
+

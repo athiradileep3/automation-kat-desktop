@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', 'Untitled - Notepad')
+Windows.startApplicationWithTitle('C:\\Users\\Abhi\\Downloads\\Calc 64-bit\\calc1.exe', 'Calculator')
 
-Windows.click(findWindowsObject('Object Repository/Notepad/MenuItem-File'))
+Windows.click(findWindowsObject('Object Repository/Calculator/8'))
 
-Windows.click(findWindowsObject('Object Repository/Notepad/Button-NewWindow'))
+Windows.click(findWindowsObject('Object Repository/Calculator/9'))
+
+Windows.click(findWindowsObject('Object Repository/Calculator/Backspace'))
+
+txt = Windows.getText(findWindowsObject('Calculator/ResultArea'))
+
+Windows.verifyMatch(txt.trim(), '8', true)
 
 Windows.closeApplication()
 

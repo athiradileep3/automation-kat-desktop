@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Windows.startApplicationWithTitle('C:\\Users\\Abhi\\Downloads\\Calc 64-bit\\calc1.exe', 'Calculator')
+
+Windows.click(findWindowsObject('Object Repository/Calculator/View'))
+
+Windows.click(findWindowsObject('Object Repository/Calculator/Scientific'))
+
+String txt = Windows.getAttribute(findWindowsObject('Object Repository/Calculator/Degrees'), 'Name')
+
+Windows.verifyMatch(txt.trim(), 'Degrees', true)
+
+Windows.closeApplication()
+
