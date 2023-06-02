@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_001,,,,2023-06-02 13:31:59,2023-06-02 13:32:22,23.626s,PASSED
+,,,,,,,
+Test Cases/Calculator/Arithmetic Expression,,,,2023-06-02 13:31:59,2023-06-02 13:32:14,14.848s,PASSED
+"startApplicationWithTitle(""C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe"", ""Calculator"")",,,,2023-06-02 13:32:00,2023-06-02 13:32:04,3.631s,PASSED
+"click(findWindowsObject(""Calculator/1""))",,,,2023-06-02 13:32:04,2023-06-02 13:32:05,1.155s,PASSED
+"click(findWindowsObject(""Calculator/Add""))",,,,2023-06-02 13:32:05,2023-06-02 13:32:06,1.014s,PASSED
+"click(findWindowsObject(""Calculator/2""))",,,,2023-06-02 13:32:06,2023-06-02 13:32:07,0.926s,PASSED
+"click(findWindowsObject(""Calculator/Subtract""))",,,,2023-06-02 13:32:07,2023-06-02 13:32:08,0.972s,PASSED
+"click(findWindowsObject(""Calculator/1""))",,,,2023-06-02 13:32:08,2023-06-02 13:32:09,0.829s,PASSED
+"click(findWindowsObject(""Calculator/Divide""))",,,,2023-06-02 13:32:09,2023-06-02 13:32:10,0.979s,PASSED
+"click(findWindowsObject(""Calculator/2""))",,,,2023-06-02 13:32:10,2023-06-02 13:32:12,1.603s,PASSED
+"click(findWindowsObject(""Calculator/Equals""))",,,,2023-06-02 13:32:12,2023-06-02 13:32:13,1.888s,PASSED
+"txt = getText(findWindowsObject(""Calculator/ResultArea""))",,,,2023-06-02 13:32:13,2023-06-02 13:32:14,0.568s,PASSED
+"verifyMatch(txt.trim(), ""1"", true)",,,,2023-06-02 13:32:14,2023-06-02 13:32:14,0.046s,PASSED
+closeApplication(),,,,2023-06-02 13:32:14,2023-06-02 13:32:14,0.133s,PASSED
+,,,,,,,
+Test Cases/Calculator/BackSpace,,,,2023-06-02 13:32:14,2023-06-02 13:32:22,8.040s,PASSED
+"startApplicationWithTitle(""C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe"", ""Calculator"")",,,,2023-06-02 13:32:15,2023-06-02 13:32:16,1.145s,PASSED
+"click(findWindowsObject(""Object Repository/Calculator/8""))",,,,2023-06-02 13:32:16,2023-06-02 13:32:18,1.798s,PASSED
+"click(findWindowsObject(""Object Repository/Calculator/9""))",,,,2023-06-02 13:32:18,2023-06-02 13:32:20,1.894s,PASSED
+"click(findWindowsObject(""Object Repository/Calculator/Backspace""))",,,,2023-06-02 13:32:20,2023-06-02 13:32:22,1.743s,PASSED
+"txt = getText(findWindowsObject(""Calculator/ResultArea""))",,,,2023-06-02 13:32:22,2023-06-02 13:32:22,0.627s,PASSED
+"verifyMatch(txt.trim(), ""8"", true)",,,,2023-06-02 13:32:22,2023-06-02 13:32:22,0.005s,PASSED
+closeApplication(),,,,2023-06-02 13:32:22,2023-06-02 13:32:22,0.121s,PASSED

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230602_134639</name>
+   <tag></tag>
+   <displayName>20230602_134639</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230602_134639/NotepadSuite/NotepadSuite_001/20230602_134640</reportLocation>
+         <runConfigDescription>
+            <groupName>Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Windows</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230602_134639/NotepadSuite/NotepadSuite_002/20230602_134642</reportLocation>
+         <runConfigDescription>
+            <groupName>Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Windows</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/NotepadCollection/NotepadCollection_001</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NotepadSuite_001,,,,2023-06-02 13:47:02,2023-06-02 13:49:52,2m - 50.369s,FAILED
+,,,,,,,
+Test Cases/Notepad/Open and Close,,,,2023-06-02 13:47:03,2023-06-02 13:47:12,9.123s,PASSED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Untitled - Notepad"")",,,,2023-06-02 13:47:04,2023-06-02 13:47:07,3.167s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Button-Maximize-Minimize""))",,,,2023-06-02 13:47:07,2023-06-02 13:47:09,2.086s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Button-Maximize-Minimize""))",,,,2023-06-02 13:47:09,2023-06-02 13:47:11,2.618s,PASSED
+closeApplication(),,,,2023-06-02 13:47:11,2023-06-02 13:47:12,0.201s,PASSED
+,,,,,,,
+Test Cases/Notepad/Save A Text File,,,,2023-06-02 13:49:13,2023-06-02 13:49:52,39.277s,FAILED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Untitled - Notepad"")",,,,2023-06-02 13:49:13,2023-06-02 13:49:14,1.129s,PASSED
+"setText(findWindowsObject(""Notepad/Edit-TextEditor""), ""Hello World"")",,,,2023-06-02 13:49:14,2023-06-02 13:49:16,1.799s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:49:16,2023-06-02 13:49:19,2.905s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem(1)-Open""))",,,,2023-06-02 13:49:19,2023-06-02 13:49:21,2.377s,PASSED
+"setText(findWindowsObject(""Object Repository/Notepad/Edit-FileName""), ""Hello World.txt"")",,,,2023-06-02 13:49:21,2023-06-02 13:49:52,31.026s,FAILED

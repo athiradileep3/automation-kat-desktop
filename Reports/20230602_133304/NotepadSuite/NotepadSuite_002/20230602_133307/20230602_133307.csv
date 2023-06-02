@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+NotepadSuite_002,,,,2023-06-02 13:36:10,2023-06-02 13:41:03,4m - 52.961s,FAILED
+,,,,,,,
+Test Cases/Notepad/Edit Text File Contents,,,,2023-06-02 13:36:10,2023-06-02 13:36:43,32.194s,PASSED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Untitled - Notepad"")",,,,2023-06-02 13:36:11,2023-06-02 13:36:15,3.254s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:36:15,2023-06-02 13:36:17,2.201s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem(1)-Open""))",,,,2023-06-02 13:36:17,2023-06-02 13:36:20,3.197s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/TreeItem-Desktop""))",,,,2023-06-02 13:36:20,2023-06-02 13:36:26,6.028s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Edit-SelectFile""))",,,,2023-06-02 13:36:26,2023-06-02 13:36:30,3.910s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Button-OpenFile""))",,,,2023-06-02 13:36:30,2023-06-02 13:36:35,4.790s,PASSED
+"clearText(findWindowsObject(""Notepad/Edit-TextEditor""))",,,,2023-06-02 13:36:35,2023-06-02 13:36:35,0.677s,PASSED
+"setText(findWindowsObject(""Notepad/Edit-TextEditor""), ""Hello Dear World"")",,,,2023-06-02 13:36:35,2023-06-02 13:36:38,2.096s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:36:38,2023-06-02 13:36:40,2.226s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem(2)-Save""))",,,,2023-06-02 13:36:40,2023-06-02 13:36:42,2.603s,PASSED
+closeApplication(),,,,2023-06-02 13:36:42,2023-06-02 13:36:43,0.142s,PASSED
+,,,,,,,
+Test Cases/Notepad/Edit Text File Name,,,,2023-06-02 13:39:58,2023-06-02 13:41:03,1m - 4.959s,FAILED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Untitled - Notepad"")",,,,2023-06-02 13:39:58,2023-06-02 13:39:59,0.851s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:39:59,2023-06-02 13:40:00,1.633s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem(1)-Open""))",,,,2023-06-02 13:40:00,2023-06-02 13:40:04,3.363s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/TreeItem-Desktop""))",,,,2023-06-02 13:40:04,2023-06-02 13:40:10,6.104s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Edit-Select File""))",,,,2023-06-02 13:40:10,2023-06-02 13:40:14,4.001s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/Button-OpenFile""))",,,,2023-06-02 13:40:14,2023-06-02 13:40:18,3.869s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem(2)""))",,,,2023-06-02 13:40:18,2023-06-02 13:40:20,2.394s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:40:20,2023-06-02 13:40:24,4.478s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:40:24,2023-06-02 13:40:27,2.202s,PASSED
+"click(findWindowsObject(""Object Repository/Notepad/MenuItem-File""))",,,,2023-06-02 13:40:27,2023-06-02 13:40:31,4.270s,PASSED
+"setText(findWindowsObject(""Object Repository/Notepad/MenuItem-Save As""), ""OneDrive"")",,,,2023-06-02 13:40:31,2023-06-02 13:41:03,31.746s,FAILED

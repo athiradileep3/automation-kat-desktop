@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_001" time="23.554" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite_001" tests="2" failures="0" errors="0" time="23.554" skipped="0" timestamp="2023-06-02 13:28:41" hostname="Abhi - 192.168.1.36" id="Test Suites/CalculatorSuite/TestSuite_001">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Abhi\\git\\automation-kat-desktop\\Reports\\20230602_132835\\CalculatorSuite\\TestSuite_001\\20230602_132835"/>
+         <property name="logFiles" value="C:\\Users\\Abhi\\git\\automation-kat-desktop\\Reports\\20230602_132835\\CalculatorSuite\\TestSuite_001\\20230602_132835\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Abhi - 192.168.1.36"/>
+         <property name="hostAddress" value="192.168.1.36"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Calculator/Arithmetic Expression" time="14.364" classname="Test Cases/Calculator/Arithmetic Expression" status="PASSED">
+         <system-out><![CDATA[2023-06-02 13:28:42 - [TEST_CASE][PASSED] - Test Cases/Calculator/Arithmetic Expression: Test Cases/Calculator/Arithmetic Expression
+
+2023-06-02 13:28:43 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe", "Calculator"): The application at location: C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe started.
+
+2023-06-02 13:28:43 - [MESSAGE][INFO] - Starting application C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe on the local machine at address http://127.0.0.1:4723
+
+2023-06-02 13:28:46 - [MESSAGE][PASSED] - The application at location: C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe started.
+
+2023-06-02 13:28:46 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/1")): Click on element: Object Repository/Calculator/1 succesfully
+
+2023-06-02 13:28:47 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/1
+
+2023-06-02 13:28:47 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/1 succesfully
+
+2023-06-02 13:28:47 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/Add")): Click on element: Object Repository/Calculator/Add succesfully
+
+2023-06-02 13:28:48 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/Add
+
+2023-06-02 13:28:48 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/Add succesfully
+
+2023-06-02 13:28:48 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/2")): Click on element: Object Repository/Calculator/2 succesfully
+
+2023-06-02 13:28:49 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/2
+
+2023-06-02 13:28:49 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/2 succesfully
+
+2023-06-02 13:28:49 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/Subtract")): Click on element: Object Repository/Calculator/Subtract succesfully
+
+2023-06-02 13:28:50 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/Subtract
+
+2023-06-02 13:28:50 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/Subtract succesfully
+
+2023-06-02 13:28:50 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/1")): Click on element: Object Repository/Calculator/1 succesfully
+
+2023-06-02 13:28:51 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/1
+
+2023-06-02 13:28:51 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/1 succesfully
+
+2023-06-02 13:28:51 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/Divide")): Click on element: Object Repository/Calculator/Divide succesfully
+
+2023-06-02 13:28:52 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/Divide
+
+2023-06-02 13:28:52 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/Divide succesfully
+
+2023-06-02 13:28:52 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/2")): Click on element: Object Repository/Calculator/2 succesfully
+
+2023-06-02 13:28:53 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/2
+
+2023-06-02 13:28:53 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/2 succesfully
+
+2023-06-02 13:28:53 - [TEST_STEP][PASSED] - click(findWindowsObject("Calculator/Equals")): Click on element: Object Repository/Calculator/Equals succesfully
+
+2023-06-02 13:28:55 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/Equals
+
+2023-06-02 13:28:55 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/Equals succesfully
+
+2023-06-02 13:28:55 - [TEST_STEP][PASSED] - txt = getText(findWindowsObject("Calculator/ResultArea")): Text of test object: Object Repository/Calculator/ResultArea is: 1 
+
+2023-06-02 13:28:56 - [MESSAGE][PASSED] - Text of test object: Object Repository/Calculator/ResultArea is: 1 
+
+2023-06-02 13:28:56 - [TEST_STEP][PASSED] - verifyMatch(txt.trim(), "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2023-06-02 13:28:56 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2023-06-02 13:28:56 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2023-06-02 13:28:56 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/BackSpace" time="8.476" classname="Test Cases/Calculator/BackSpace" status="PASSED">
+         <system-out><![CDATA[2023-06-02 13:28:56 - [TEST_CASE][PASSED] - Test Cases/Calculator/BackSpace: Test Cases/Calculator/BackSpace
+
+2023-06-02 13:28:57 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe", "Calculator"): The application at location: C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe started.
+
+2023-06-02 13:28:57 - [MESSAGE][INFO] - Starting application C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe on the local machine at address http://127.0.0.1:4723
+
+2023-06-02 13:28:58 - [MESSAGE][PASSED] - The application at location: C:\Users\Abhi\Downloads\Calc 64-bit\calc1.exe started.
+
+2023-06-02 13:28:58 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Calculator/8")): Click on element: Object Repository/Calculator/8 succesfully
+
+2023-06-02 13:29:00 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/8
+
+2023-06-02 13:29:00 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/8 succesfully
+
+2023-06-02 13:29:00 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Calculator/9")): Click on element: Object Repository/Calculator/9 succesfully
+
+2023-06-02 13:29:02 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/9
+
+2023-06-02 13:29:02 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/9 succesfully
+
+2023-06-02 13:29:02 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Calculator/Backspace")): Click on element: Object Repository/Calculator/Backspace succesfully
+
+2023-06-02 13:29:03 - [MESSAGE][INFO] - Clicking on element: Object Repository/Calculator/Backspace
+
+2023-06-02 13:29:04 - [MESSAGE][PASSED] - Click on element: Object Repository/Calculator/Backspace succesfully
+
+2023-06-02 13:29:04 - [TEST_STEP][PASSED] - txt = getText(findWindowsObject("Calculator/ResultArea")): Text of test object: Object Repository/Calculator/ResultArea is: 8 
+
+2023-06-02 13:29:04 - [MESSAGE][PASSED] - Text of test object: Object Repository/Calculator/ResultArea is: 8 
+
+2023-06-02 13:29:04 - [TEST_STEP][PASSED] - verifyMatch(txt.trim(), "8", true): Actual text '8' and expected text '8' are matched  using regular expression
+
+2023-06-02 13:29:04 - [MESSAGE][PASSED] - Actual text '8' and expected text '8' are matched  using regular expression
+
+2023-06-02 13:29:04 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2023-06-02 13:29:04 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-02 13:28:41 - [TEST_SUITE][PASSED] - TestSuite_001: Test Cases/Calculator/BackSpace]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
